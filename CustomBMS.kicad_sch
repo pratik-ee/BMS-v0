@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "422fc8bd-c42e-475a-86fa-949c078f7358")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 85.09 16.51)
+		(size 22.86 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5bba744b-5d77-4f20-8005-b356ef71a0a1")
+		(property "Sheetname" "Charge and discharge mosfets"
+			(at 85.09 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Charge&discharge.kicad_sch"
+			(at 85.09 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CHG" input
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e9cf2afd-be23-4e06-99c8-d364d5428312")
+		)
+		(pin "PDSG" input
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "13ead645-a7ae-4d8c-8740-83768e176d74")
+		)
+		(pin "CHG+" bidirectional
+			(at 85.09 17.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fb064454-0604-43c8-9627-50e2bf10160c")
+		)
+		(pin "SHUNT_N" output
+			(at 107.95 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "154f3199-7098-40ff-a46d-9deada51e23c")
+		)
+		(pin "SHUNT_P" output
+			(at 107.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9f04b428-eea9-4abe-b0c6-fd2bab3bc2ff")
+		)
+		(pin "DSG" input
+			(at 107.95 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7a628963-0c2c-48f5-a8d6-6163032ab829")
+		)
+		(pin "BAT-" bidirectional
+			(at 107.95 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b1d5253-424b-4654-a017-3c93096d3193")
+		)
+		(pin "BAT+" bidirectional
+			(at 107.95 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fa681775-4654-453f-b6df-0e48fcb8bcf6")
+		)
+		(pin "PORT+" bidirectional
+			(at 85.09 22.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f9122952-f412-493a-86aa-a514ac756f33")
+		)
+		(pin "PORT-" bidirectional
+			(at 85.09 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fb61be08-10e9-4feb-b2eb-d722e04c5d52")
+		)
+		(instances
+			(project "CustomBMS"
+				(path "/422fc8bd-c42e-475a-86fa-949c078f7358"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 72.39)
+		(size 82.55 82.55)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f1d1e45d-3f2c-42e1-b604-758d47569f1c")
+		(property "Sheetname" "MCU+Monitor IC"
+			(at 44.45 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "monitoring.kicad_sch"
+			(at 44.45 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CustomBMS"
+				(path "/422fc8bd-c42e-475a-86fa-949c078f7358"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
