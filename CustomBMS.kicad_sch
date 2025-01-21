@@ -144,6 +144,44 @@
 		)
 	)
 	(sheet
+		(at 173.99 53.34)
+		(size 40.64 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a08f2acc-5278-48c6-a706-f5da6a89b166")
+		(property "Sheetname" "MCU Config"
+			(at 173.99 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_config.kicad_sch"
+			(at 173.99 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CustomBMS"
+				(path "/422fc8bd-c42e-475a-86fa-949c078f7358"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 44.45 72.39)
 		(size 82.55 82.55)
 		(fields_autoplaced yes)
@@ -155,7 +193,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f1d1e45d-3f2c-42e1-b604-758d47569f1c")
-		(property "Sheetname" "MCU+Monitor IC"
+		(property "Sheetname" "Monitor IC CONFIG"
 			(at 44.45 71.6784 0)
 			(effects
 				(font
@@ -182,10 +220,248 @@
 				(hide yes)
 			)
 		)
+		(pin "CHG_U" input
+			(at 127 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "50dec30c-f2e1-4dad-bbec-e9d6fdd11017")
+		)
+		(pin "DSG_U" input
+			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d8b2877-4bef-4e91-8939-961cdbe25259")
+		)
+		(pin "CHG_B" input
+			(at 127 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "89e54beb-79b8-41a8-a261-41f1f71eb648")
+		)
+		(pin "DSG_B" input
+			(at 127 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "766c827d-6ebd-4295-b1f5-bde7feac0d98")
+		)
+		(pin "Alert_B_U" input
+			(at 127 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d2e2e1f7-a247-4455-bedb-bf3b6029ac30")
+		)
+		(pin "SDA_MCU" input
+			(at 127 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c451ecf8-e733-451a-8107-ae565ab383b2")
+		)
+		(pin "ALERT_B" input
+			(at 127 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "59e57074-89b0-4614-9f34-536757665f2a")
+		)
+		(pin "I2C_CTRL_B_U" input
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5e156b45-142c-4cfc-88b3-ff8a45c0e600")
+		)
+		(pin "SCL_MCU" input
+			(at 106.68 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4e41c523-244a-44d7-96d5-66859bf2a8b0")
+		)
+		(pin "I2C_CTRL_B" input
+			(at 99.06 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9ccf747d-01f6-4117-9465-f089a05e316d")
+		)
+		(pin "I2C_CTRL_U" input
+			(at 87.63 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8de099cd-e201-4ed2-a5d6-b0d1fd16695a")
+		)
 		(instances
 			(project "CustomBMS"
 				(path "/422fc8bd-c42e-475a-86fa-949c078f7358"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 114.3)
+		(size 46.99 46.99)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "feaa7d91-301d-4a94-a100-c7358829192f")
+		(property "Sheetname" "Charger and Load detection"
+			(at 165.1 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "charger&load_detection.kicad_sch"
+			(at 165.1 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BAT-" input
+			(at 212.09 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "929fc21d-9443-4e05-8ef5-32770733efe1")
+		)
+		(pin "LOAD_RM_DET" input
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9d575fae-a201-44ee-be0e-5cc6be65e033")
+		)
+		(pin "VCC_B" input
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9359b17-71e9-4e0e-bdbb-c3bb68d9c886")
+		)
+		(pin "PACK-" input
+			(at 212.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "510912a7-fdd9-47af-9c37-ae1a2a54eaae")
+		)
+		(pin "VC5X_B" input
+			(at 212.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "75e8f11d-b450-462e-91e7-68eff2a6fe6d")
+		)
+		(pin "CHG_DET" input
+			(at 212.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6b4c00b-345c-4891-9350-505a2231e779")
+		)
+		(pin "BAT+" input
+			(at 212.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b1e64d1e-a919-420b-9e7c-0a967dbd1adb")
+		)
+		(pin "TS1_B" input
+			(at 165.1 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f0114d6f-a115-4b65-b773-8123b6d49860")
+		)
+		(pin "CHG_ACTIVATE" input
+			(at 165.1 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4532e6e8-0ae0-41e2-aff8-77b490f4dc9a")
+		)
+		(instances
+			(project "CustomBMS"
+				(path "/422fc8bd-c42e-475a-86fa-949c078f7358"
+					(page "5")
 				)
 			)
 		)

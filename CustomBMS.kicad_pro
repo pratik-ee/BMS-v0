@@ -585,7 +585,15 @@
     ],
     [
       "f1d1e45d-3f2c-42e1-b604-758d47569f1c",
-      "MCU+Monitor IC"
+      "Monitor IC CONFIG"
+    ],
+    [
+      "a08f2acc-5278-48c6-a706-f5da6a89b166",
+      "MCU Config"
+    ],
+    [
+      "feaa7d91-301d-4a94-a100-c7358829192f",
+      "Charger and Load detection"
     ]
   ],
   "text_variables": {}
