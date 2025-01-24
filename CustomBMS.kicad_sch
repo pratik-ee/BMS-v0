@@ -144,6 +144,74 @@
 		)
 	)
 	(sheet
+		(at 228.6 24.13)
+		(size 41.91 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95edca5e-5bb7-4b9d-9a6a-b9258636bd28")
+		(property "Sheetname" "Power Supply"
+			(at 228.6 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 228.6 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 270.51 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "64637b00-3a79-43b3-b498-861b98d73ad8")
+		)
+		(pin "3.3V" input
+			(at 270.51 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5b0c8d71-f660-4772-b686-a7f1cb41aea0")
+		)
+		(pin "12V" input
+			(at 228.6 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a882a870-71cc-4c08-af2b-ce1ce6cd0f42")
+		)
+		(instances
+			(project "CustomBMS"
+				(path "/422fc8bd-c42e-475a-86fa-949c078f7358"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 173.99 53.34)
 		(size 40.64 44.45)
 		(fields_autoplaced yes)
@@ -172,6 +240,46 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "GND" input
+			(at 173.99 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "54329c92-4764-46a2-8458-be7c56a1ebc2")
+		)
+		(pin "3.3" input
+			(at 173.99 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f107530d-4845-4ff9-990a-5c1192fb212f")
+		)
+		(pin "I2C_SCL" input
+			(at 173.99 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f9c97b6d-1140-401a-8194-ea544cb6af68")
+		)
+		(pin "I2C_SDA" input
+			(at 173.99 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b4c14fb-a9c0-46c3-afa0-b6571f945f3a")
 		)
 		(instances
 			(project "CustomBMS"
@@ -329,6 +437,46 @@
 				(justify right)
 			)
 			(uuid "8de099cd-e201-4ed2-a5d6-b0d1fd16695a")
+		)
+		(pin "CHG_ACTIVATE" input
+			(at 44.45 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1189fbb-2d4e-4bae-8e2e-b2e507ba5063")
+		)
+		(pin "GND_B" input
+			(at 44.45 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dbea4f88-7ab7-4e77-bdbd-47083b0d677a")
+		)
+		(pin "GND_U" input
+			(at 44.45 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3539398b-bed7-4098-aa6e-806925a9ad1b")
+		)
+		(pin "VCC_B" input
+			(at 44.45 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ac2a129-67d5-48a3-919e-287ccd00da51")
 		)
 		(instances
 			(project "CustomBMS"

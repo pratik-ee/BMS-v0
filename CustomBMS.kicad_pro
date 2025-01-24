@@ -594,6 +594,10 @@
     [
       "feaa7d91-301d-4a94-a100-c7358829192f",
       "Charger and Load detection"
+    ],
+    [
+      "95edca5e-5bb7-4b9d-9a6a-b9258636bd28",
+      "Power Supply"
     ]
   ],
   "text_variables": {}
