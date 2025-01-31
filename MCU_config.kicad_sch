@@ -2976,6 +2976,26 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 97.79) (xy 172.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0dab05-6123-4110-ad4d-8d2aa8faa1bd")
+	)
+	(wire
+		(pts
+			(xy 215.9 59.69) (xy 205.74 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112c5d41-905e-464c-8e58-99fdd009bfdf")
+	)
+	(wire
+		(pts
 			(xy 195.58 52.07) (xy 195.58 49.53)
 		)
 		(stroke
@@ -3103,6 +3123,16 @@
 			(type default)
 		)
 		(uuid "26658ef9-82ff-4c1a-9735-91b533dcca4e")
+	)
+	(wire
+		(pts
+			(xy 158.75 95.25) (xy 172.72 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b6cdc9-3260-4d5b-85ce-52607265c790")
 	)
 	(wire
 		(pts
@@ -3346,6 +3376,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 87.63) (xy 172.72 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bba7796-aad1-4887-a878-c443351f6aae")
+	)
+	(wire
+		(pts
 			(xy 59.69 31.75) (xy 69.85 31.75)
 		)
 		(stroke
@@ -3453,6 +3493,16 @@
 			(type default)
 		)
 		(uuid "839290e9-afcd-4a80-bd5b-54f0ebf1ef79")
+	)
+	(wire
+		(pts
+			(xy 248.92 123.19) (xy 248.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac7a2c5-43a1-4299-b531-f3751b14b52a")
 	)
 	(wire
 		(pts
@@ -3606,6 +3656,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 85.09) (xy 172.72 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad551918-34b9-4b8a-8cb7-17077fd5c03b")
+	)
+	(wire
+		(pts
 			(xy 58.42 81.28) (xy 58.42 76.2)
 		)
 		(stroke
@@ -3663,6 +3723,16 @@
 			(type default)
 		)
 		(uuid "bc83d1b4-25cc-4a3b-afc4-62624925d0f0")
+	)
+	(wire
+		(pts
+			(xy 167.64 115.57) (xy 172.72 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be57e1f2-8c28-499d-9d94-6ff2f8935c35")
 	)
 	(wire
 		(pts
@@ -3826,6 +3896,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 77.47) (xy 209.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd33d8e7-e91c-4225-8064-7cce22d34b75")
+	)
+	(wire
+		(pts
 			(xy 38.1 132.08) (xy 30.48 132.08)
 		)
 		(stroke
@@ -3936,6 +4016,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 92.71) (xy 172.72 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed932039-09f3-4a18-8340-09bcde774393")
+	)
+	(wire
+		(pts
 			(xy 30.48 137.16) (xy 30.48 142.24)
 		)
 		(stroke
@@ -3986,7 +4076,6 @@
 	)
 	(label "BOOT1"
 		(at 67.31 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3997,7 +4086,6 @@
 	)
 	(label "3.3DCV"
 		(at 91.44 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4008,7 +4096,6 @@
 	)
 	(label "CAN_Tx"
 		(at 229.87 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4019,7 +4106,6 @@
 	)
 	(label "CAN_Rx"
 		(at 229.87 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4030,7 +4116,6 @@
 	)
 	(label "RCC_OSC_OUT"
 		(at 40.64 62.23 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4041,7 +4126,6 @@
 	)
 	(label "RCC_OSC32_OUT"
 		(at 81.28 58.42 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4052,7 +4136,6 @@
 	)
 	(label "BOOT1"
 		(at 165.1 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4063,7 +4146,6 @@
 	)
 	(label "RCC_OSC_IN"
 		(at 19.05 63.5 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4074,7 +4156,6 @@
 	)
 	(label "CAN_Tx"
 		(at 213.36 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4085,7 +4166,6 @@
 	)
 	(label "CAN_Rx"
 		(at 213.36 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4096,7 +4176,6 @@
 	)
 	(label "BOOT0"
 		(at 166.37 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4107,7 +4186,6 @@
 	)
 	(label "RCC_OSC_IN"
 		(at 160.02 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4118,7 +4196,6 @@
 	)
 	(label "RST"
 		(at 125.73 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4129,7 +4206,6 @@
 	)
 	(label "BOOT0"
 		(at 15.24 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4140,7 +4216,6 @@
 	)
 	(label "RCC_OSC32_OUT"
 		(at 156.21 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4151,7 +4226,6 @@
 	)
 	(label "RCC_OSC32_IN"
 		(at 59.69 60.96 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4162,7 +4236,6 @@
 	)
 	(label "3.3DCV"
 		(at 187.96 40.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4173,7 +4246,6 @@
 	)
 	(label "RCC_OSC_OUT"
 		(at 158.75 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4184,7 +4256,6 @@
 	)
 	(label "RST"
 		(at 167.64 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4195,7 +4266,6 @@
 	)
 	(label "RCC_OSC32_IN"
 		(at 157.48 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4207,7 +4277,6 @@
 	(hierarchical_label "3.3"
 		(shape input)
 		(at 33.02 27.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4216,10 +4285,31 @@
 		)
 		(uuid "0144646d-e776-4b1d-823d-6197eab4020f")
 	)
+	(hierarchical_label "ALERT_B_U"
+		(shape input)
+		(at 161.29 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b17fd48-a2fd-4c72-8a98-d04775de58a7")
+	)
+	(hierarchical_label "CHG_DET"
+		(shape input)
+		(at 167.64 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ecaa245-c774-4a08-9d1f-9352edbeda38")
+	)
 	(hierarchical_label "3.3"
 		(shape input)
 		(at 119.38 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4231,7 +4321,6 @@
 	(hierarchical_label "I2C_SCL"
 		(shape input)
 		(at 170.18 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4243,7 +4332,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 36.83 44.45 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4252,10 +4340,20 @@
 		)
 		(uuid "4719661b-503a-4a1f-a11a-6426c934372a")
 	)
+	(hierarchical_label "I2C_CTRL_U"
+		(shape input)
+		(at 158.75 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4afb418a-3c4f-4fe0-b663-4217553f9671")
+	)
 	(hierarchical_label "3.3"
 		(shape input)
 		(at 246.38 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4267,7 +4365,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 189.23 133.35 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4276,10 +4373,42 @@
 		)
 		(uuid "70dead8d-2885-4657-97e5-9174c3969064")
 	)
+	(hierarchical_label "I2C_CTRL_B_U"
+		(shape input)
+		(at 158.75 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74a29002-76c7-40f9-ab7c-b8145f0f2deb")
+	)
+	(hierarchical_label "I2C_CTRL_B"
+		(shape input)
+		(at 158.75 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83115d68-5a61-4d12-a8ee-f8acdac1752e")
+	)
+	(hierarchical_label "LOAD_RM_DETECT"
+		(shape input)
+		(at 209.55 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f7584a2-5457-4f30-9598-323ec09599d2")
+	)
 	(hierarchical_label "3.3"
 		(shape input)
 		(at 43.18 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4291,7 +4420,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 130.81 81.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4303,7 +4431,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 49.53 147.32 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4315,7 +4442,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 58.42 96.52 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4324,10 +4450,20 @@
 		)
 		(uuid "c5618e27-4509-42e4-98a1-b9db8b1cedee")
 	)
+	(hierarchical_label "ALERT_B"
+		(shape input)
+		(at 162.56 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7e27bd9-08a9-4f76-a687-24a5c85d2a9f")
+	)
 	(hierarchical_label "I2C_SDA"
 		(shape input)
 		(at 170.18 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4339,7 +4475,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 248.92 129.54 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4348,10 +4483,20 @@
 		)
 		(uuid "dbf5dba9-b623-44e6-b5be-b4513dd54c46")
 	)
+	(hierarchical_label "PDSG"
+		(shape input)
+		(at 215.9 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7cb07e5-4c13-44e8-b0dc-929d552fae19")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 102.87 148.59 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4363,7 +4508,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 17.78 95.25 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
