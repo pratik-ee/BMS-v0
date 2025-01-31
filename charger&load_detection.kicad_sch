@@ -569,6 +569,239 @@
 				)
 			)
 		)
+		(symbol "MMSZ5232BS-7-f:MMSZ5232BS-7-F"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Z"
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MMSZ5232BS-7-F"
+				(at 10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOD2513X120N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/ds31038.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diodes Inc MMSZ5232BS-7-F Zener Diode, 5.6V 5% 200 mW SMT 2-Pin SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MMSZ5232BS-7-F"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-MMSZ5232BS-F"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMSZ5232BS-7-F?qs=4u4ada%252BXaA6tF4wEjgPe2w%3D%3D"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "MMSZ5232BS-7-F"
+				(at 10.16 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mmsz5232bs-7-f/diodes-incorporated?region=europe"
+				(at 10.16 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MMSZ5232BS-7-F_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 -2.54) (xy 5.08 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.032) (xy 5.08 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.032) (xy 6.096 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers hide)
 			(pin_names
@@ -1364,6 +1597,12 @@
 		(uuid "39bbd45a-6b10-4936-920b-09541b3df7d9")
 	)
 	(junction
+		(at 203.2 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52bb007f-6593-48ef-93dd-47940e5c637f")
+	)
+	(junction
 		(at 67.31 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1374,12 +1613,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87f3f7a5-8c4c-4347-9854-9a96b4842560")
-	)
-	(junction
-		(at 203.2 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b983d0e-6ea2-45d3-bd27-633d050340a6")
 	)
 	(junction
 		(at 72.39 69.85)
@@ -1498,6 +1731,16 @@
 			(type default)
 		)
 		(uuid "1359e4f7-5024-40d5-ba66-8477f4db7b6f")
+	)
+	(wire
+		(pts
+			(xy 203.2 77.47) (xy 203.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1382ea78-85d4-4d95-9745-101b11398866")
 	)
 	(wire
 		(pts
@@ -1641,6 +1884,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 114.3) (xy 203.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d657856-5204-4560-9caf-db9686d2e1eb")
+	)
+	(wire
+		(pts
 			(xy 67.31 96.52) (xy 67.31 102.87)
 		)
 		(stroke
@@ -1678,16 +1931,6 @@
 			(type default)
 		)
 		(uuid "46e21e37-3b58-4366-96db-382814ca45f2")
-	)
-	(wire
-		(pts
-			(xy 203.2 87.63) (xy 203.2 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47c6d6a4-18a3-4a71-9c93-41b6e0dbfbf8")
 	)
 	(wire
 		(pts
@@ -2011,6 +2254,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 95.25) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa63281-c353-41ca-a0b5-a1fddfa32793")
+	)
+	(wire
+		(pts
 			(xy 106.68 78.74) (xy 106.68 91.44)
 		)
 		(stroke
@@ -2071,17 +2324,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 77.47) (xy 203.2 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef7a60b9-74b3-40f5-b1b6-657ce896c1ef")
-	)
-	(wire
-		(pts
-			(xy 203.2 109.22) (xy 203.2 111.76)
+			(xy 203.2 134.62) (xy 203.2 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2098,16 +2341,6 @@
 			(type default)
 		)
 		(uuid "f1fc86c4-d462-4357-b514-e3d0e90c115e")
-	)
-	(wire
-		(pts
-			(xy 203.2 97.79) (xy 203.2 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb331689-f9e2-4a3a-9688-35c9bfb29153")
 	)
 	(wire
 		(pts
@@ -2133,7 +2366,7 @@
 	)
 	(rectangle
 		(start 148.59 26.67)
-		(end 229.87 119.38)
+		(end 229.87 147.32)
 		(stroke
 			(width 0)
 			(type default)
@@ -2231,7 +2464,7 @@
 	)
 	(hierarchical_label "BAT-"
 		(shape input)
-		(at 203.2 111.76 270)
+		(at 203.2 139.7 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2829,76 +3062,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 203.2 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31090cc0-b230-4355-a8a0-8a6bca52939b")
-		(property "Reference" "D35"
-			(at 205.74 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 205.74 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 203.2 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63aa211e-6a18-42a3-89bd-20b20eaceb94")
-		)
-		(pin "1"
-			(uuid "c42abe5d-2f00-4885-a562-9e315e11dca3")
-		)
-		(instances
-			(project "CustomBMS"
-				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/feaa7d91-301d-4a94-a100-c7358829192f"
-					(reference "D35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 33.02 102.87 270)
 		(unit 1)
@@ -2978,6 +3141,148 @@
 			(project "CustomBMS"
 				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/feaa7d91-301d-4a94-a100-c7358829192f"
 					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMSZ5232BS-7-f:MMSZ5232BS-7-F")
+		(at 203.2 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4030b3e0-ab35-4341-9d8e-41512e88b190")
+		(property "Reference" "Z3"
+			(at 207.01 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMSZ5232BS-7-F"
+			(at 207.01 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MMSZ5232BS-7-F:SOD2513X120N"
+			(at 109.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/ds31038.pdf"
+			(at 9.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes Inc MMSZ5232BS-7-F Zener Diode, 5.6V 5% 200 mW SMT 2-Pin SOD-323"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at -190.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at -290.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMSZ5232BS-7-F"
+			(at -390.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-MMSZ5232BS-F"
+			(at -490.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMSZ5232BS-7-F?qs=4u4ada%252BXaA6tF4wEjgPe2w%3D%3D"
+			(at -590.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MMSZ5232BS-7-F"
+			(at -690.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mmsz5232bs-7-f/diodes-incorporated?region=europe"
+			(at -790.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a78dd1d6-124a-4e07-8515-9a7a394a430f")
+		)
+		(pin "1"
+			(uuid "8208c4f3-c35b-4ab9-9f5e-dee3a482ecbf")
+		)
+		(instances
+			(project "CustomBMS"
+				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/feaa7d91-301d-4a94-a100-c7358829192f"
+					(reference "Z3")
 					(unit 1)
 				)
 			)
@@ -3328,7 +3633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 70.612 64.77 90)
 			(effects
 				(font
@@ -3347,6 +3652,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 72.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907178"
 			(at 72.39 64.77 0)
 			(effects
 				(font
@@ -3465,76 +3779,6 @@
 			(project ""
 				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/feaa7d91-301d-4a94-a100-c7358829192f"
 					(reference "Q54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 203.2 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88d918f6-4400-4b4a-a14c-ccf83db387b3")
-		(property "Reference" "D33"
-			(at 205.74 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 205.74 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 203.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "99bd8891-fb53-4ef8-9e51-7fb784af8666")
-		)
-		(pin "1"
-			(uuid "14dbaba1-1766-4168-9a78-161995afd3ad")
-		)
-		(instances
-			(project "CustomBMS"
-				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/feaa7d91-301d-4a94-a100-c7358829192f"
-					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -3812,17 +4056,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 203.2 93.98 270)
+		(lib_id "MMSZ5232BS-7-f:MMSZ5232BS-7-F")
+		(at 203.2 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9c9ee288-8f7e-484b-8da2-236910b8562f")
-		(property "Reference" "D34"
-			(at 205.74 92.7099 90)
+		(uuid "a6f9c729-6b2d-4cbd-a5b5-322222f3a122")
+		(property "Reference" "Z2"
+			(at 207.01 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3830,8 +4074,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
-			(at 205.74 95.2499 90)
+		(property "Value" "MMSZ5232BS-7-F"
+			(at 207.01 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,8 +4083,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 203.2 93.98 0)
+		(property "Footprint" "MMSZ5232BS-7-F:SOD2513X120N"
+			(at 109.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/ds31038.pdf"
+			(at 9.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes Inc MMSZ5232BS-7-F Zener Diode, 5.6V 5% 200 mW SMT 2-Pin SOD-323"
+			(at 203.2 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,34 +4112,86 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 203.2 93.98 0)
+		(property "Height" "1.2"
+			(at -190.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Zener diode"
-			(at 203.2 93.98 0)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at -290.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMSZ5232BS-7-F"
+			(at -390.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-MMSZ5232BS-F"
+			(at -490.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMSZ5232BS-7-F?qs=4u4ada%252BXaA6tF4wEjgPe2w%3D%3D"
+			(at -590.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MMSZ5232BS-7-F"
+			(at -690.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mmsz5232bs-7-f/diodes-incorporated?region=europe"
+			(at -790.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "92eaaa68-e4c5-4e39-8c1e-e24dd858b6b6")
+			(uuid "e3ef474c-361b-49b8-ba7f-4934bab850cc")
 		)
 		(pin "1"
-			(uuid "58082f98-98a8-4a9a-ad37-ae2ff88afa27")
+			(uuid "f1a65258-d43a-4e76-bb68-d2c47d99fa62")
 		)
 		(instances
 			(project "CustomBMS"
 				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/feaa7d91-301d-4a94-a100-c7358829192f"
-					(reference "D34")
+					(reference "Z2")
 					(unit 1)
 				)
 			)
@@ -4477,6 +4793,148 @@
 			(project "CustomBMS"
 				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/feaa7d91-301d-4a94-a100-c7358829192f"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMSZ5232BS-7-f:MMSZ5232BS-7-F")
+		(at 203.2 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcc09eea-0394-4b8b-96f1-b27ae847faba")
+		(property "Reference" "Z1"
+			(at 207.01 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMSZ5232BS-7-F"
+			(at 207.01 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MMSZ5232BS-7-F:SOD2513X120N"
+			(at 109.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/ds31038.pdf"
+			(at 9.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes Inc MMSZ5232BS-7-F Zener Diode, 5.6V 5% 200 mW SMT 2-Pin SOD-323"
+			(at 203.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at -190.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at -290.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMSZ5232BS-7-F"
+			(at -390.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-MMSZ5232BS-F"
+			(at -490.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMSZ5232BS-7-F?qs=4u4ada%252BXaA6tF4wEjgPe2w%3D%3D"
+			(at -590.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MMSZ5232BS-7-F"
+			(at -690.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mmsz5232bs-7-f/diodes-incorporated?region=europe"
+			(at -790.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e14149f-1bff-4169-8f94-778692842118")
+		)
+		(pin "1"
+			(uuid "6290d17c-1a1e-4aa0-a966-451df67a50fb")
+		)
+		(instances
+			(project ""
+				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/feaa7d91-301d-4a94-a100-c7358829192f"
+					(reference "Z1")
 					(unit 1)
 				)
 			)

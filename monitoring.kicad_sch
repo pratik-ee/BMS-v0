@@ -11765,7 +11765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.962 22.86 90)
 			(effects
 				(font
@@ -11785,6 +11785,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 78.74 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2077906"
+			(at 78.74 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11832,7 +11841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 32.7152 133.35 0)
 			(effects
 				(font
@@ -11852,6 +11861,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 31.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5189849"
+			(at 31.75 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13771,7 +13789,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.8 66.548 90)
 			(effects
 				(font
@@ -13791,6 +13809,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 177.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C325551"
+			(at 177.8 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13906,7 +13933,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.922 179.07 90)
 			(effects
 				(font
@@ -13926,6 +13953,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 139.7 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2077906"
+			(at 139.7 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14250,7 +14286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 79.502 120.65 90)
 			(effects
 				(font
@@ -14269,6 +14305,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2077906"
 			(at 81.28 120.65 0)
 			(effects
 				(font
@@ -14613,14 +14658,14 @@
 			)
 		)
 		(property "Value" "510k"
-			(at 95.25 136.144 90)
+			(at 95.25 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.472 135.89 90)
 			(effects
 				(font
@@ -14640,6 +14685,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 95.25 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907178"
+			(at 95.25 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14831,7 +14885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 229.87 119.888 90)
 			(effects
 				(font
@@ -14851,6 +14905,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 229.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2077906"
+			(at 229.87 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15456,7 +15519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 253.492 153.67 90)
 			(effects
 				(font
@@ -15475,6 +15538,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 255.27 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2930043"
 			(at 255.27 153.67 0)
 			(effects
 				(font
@@ -16023,7 +16095,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 271.272 24.13 90)
 			(effects
 				(font
@@ -16043,6 +16115,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 273.05 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23156"
+			(at 273.05 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16166,7 +16247,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 155.702 99.06 90)
 			(effects
 				(font
@@ -16186,6 +16267,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907178"
+			(at 157.48 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16389,7 +16479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 219.71 117.348 90)
 			(effects
 				(font
@@ -16409,6 +16499,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2077906"
+			(at 219.71 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16669,7 +16768,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 26.3652 39.37 0)
 			(effects
 				(font
@@ -16689,6 +16788,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 25.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5189849"
+			(at 25.4 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17025,7 +17133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.272 173.99 90)
 			(effects
 				(font
@@ -17045,6 +17153,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 146.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2077906"
+			(at 146.05 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17237,7 +17354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 234.95 51.308 90)
 			(effects
 				(font
@@ -17257,6 +17374,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 234.95 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23156"
+			(at 234.95 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17382,7 +17508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 75.692 120.65 90)
 			(effects
 				(font
@@ -17401,6 +17527,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2077906"
 			(at 77.47 120.65 0)
 			(effects
 				(font
@@ -17979,7 +18114,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 271.272 45.72 90)
 			(effects
 				(font
@@ -17999,6 +18134,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 273.05 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23156"
+			(at 273.05 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18324,7 +18468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.45 47.498 90)
 			(effects
 				(font
@@ -18344,6 +18488,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 171.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23156"
+			(at 171.45 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19262,7 +19415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 150.622 21.59 90)
 			(effects
 				(font
@@ -19282,6 +19435,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 152.4 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23156"
+			(at 152.4 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19329,7 +19491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.532 20.32 90)
 			(effects
 				(font
@@ -19349,6 +19511,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 194.31 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23156"
+			(at 194.31 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19398,7 +19569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 82.042 22.86 90)
 			(effects
 				(font
@@ -19418,6 +19589,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 83.82 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2077906"
+			(at 83.82 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20135,7 +20315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 240.03 126.238 90)
 			(effects
 				(font
@@ -20155,6 +20335,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C103548"
+			(at 240.03 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21361,7 +21550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.07 58.928 90)
 			(effects
 				(font
@@ -21381,6 +21570,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23156"
+			(at 179.07 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22005,7 +22203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 203.2 48.768 90)
 			(effects
 				(font
@@ -22025,6 +22223,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 203.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C325551"
+			(at 203.2 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)

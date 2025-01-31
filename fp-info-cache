@@ -1,4 +1,4 @@
-24651218208334851
+24665124738257934
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65813,6 +65813,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MMSZ5232BS-7-F
+SOD2513X120N
+SOD323
+Zener Diode
+0
+2
+2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -69754,6 +69761,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PWR163S-25-50R0J
+PWR163S2550R0F
+PWR163S-25-50R0F-1
+Resistor
+0
+3
+3
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf
@@ -99358,6 +99372,27 @@ Varistor VF
 2
 2
 easyeda2kicad
+LL-34_L3.5-W1.5-RD
+
+
+0
+2
+2
+easyeda2kicad
+RES-SMD_PWR163S-25-50R0J
+
+
+0
+3
+3
+easyeda2kicad
+SMB_L4.8-W3.6-LS5.4-RD
+
+
+0
+2
+2
+easyeda2kicad
 SO-16_L9.9-W3.9-P1.27-LS6.0-BL
 
 
@@ -99366,6 +99401,27 @@ SO-16_L9.9-W3.9-P1.27-LS6.0-BL
 16
 easyeda2kicad
 SOD-123_L2.7-W1.6-LS3.7-RD
+
+
+0
+2
+2
+easyeda2kicad
+SOD-123_L2.7-W1.6-LS3.7-RD-1
+
+
+0
+2
+2
+easyeda2kicad
+SOD-123_L2.7-W1.6-LS3.8-RD
+
+
+0
+2
+2
+easyeda2kicad
+SOD-323_L1.8-W1.3-LS2.5-RD
 
 
 0
