@@ -1427,6 +1427,268 @@
 				)
 			)
 		)
+		(symbol "easyeda2kicad:1SMB5930B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1SMB5930B"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SMB_L4.8-W3.6-LS5.4-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Zener-Diodes_LGE-1SMB5930B_C688891.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C688891"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1SMB5930B_0_1"
+				(polyline
+					(pts
+						(xy -2.29 2.29) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.25 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.52) (xy -1.27 0) (xy 1.27 1.78) (xy 1.27 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:BZT52C16_C2903915"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZT52C16_C2903915"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOD-123_L2.7-W1.6-LS3.8-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2903915"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BZT52C16_C2903915_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 2.03) (xy -1.27 1.52) (xy -1.27 -1.52) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.78) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 109.22 226.06)
@@ -1451,12 +1713,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0167c179-117c-433e-96b5-198190fcf9f3")
-	)
-	(junction
-		(at 102.87 15.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "026474bd-398b-47e3-aa10-7d37aed010ed")
 	)
 	(junction
 		(at 41.91 349.25)
@@ -1507,10 +1763,10 @@
 		(uuid "1e19916e-6d3c-4ca0-8c97-d308c1e6c772")
 	)
 	(junction
-		(at 234.95 33.02)
+		(at 25.4 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1e43b3b7-bd2c-45fa-883d-12db06501420")
+		(uuid "208587dc-de97-4b8c-9472-962c7b50dbe2")
 	)
 	(junction
 		(at 62.23 331.47)
@@ -1553,12 +1809,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c34d0ab-c4df-4ffa-b474-f2c9f72e7704")
-	)
-	(junction
-		(at 30.48 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e0c3268-acd5-4fec-a433-fb738daad606")
 	)
 	(junction
 		(at -3.81 27.94)
@@ -1741,12 +1991,6 @@
 		(uuid "665912ba-cfeb-4576-b223-1beb6f47eac2")
 	)
 	(junction
-		(at 218.44 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a4b1212-c1f5-41c6-b2e0-0b2fffdc1e52")
-	)
-	(junction
 		(at 99.06 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1771,10 +2015,22 @@
 		(uuid "746dcdf5-080e-4082-9db7-c6b87bdff3fe")
 	)
 	(junction
+		(at 25.4 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74bcd802-3470-445d-9ca5-5d456861714c")
+	)
+	(junction
 		(at 99.06 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "751bceb7-e140-4e6b-a86c-e03eea4a6623")
+	)
+	(junction
+		(at 218.44 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78029c3a-7275-4180-8a24-5758252b0ee5")
 	)
 	(junction
 		(at 62.23 60.96)
@@ -1897,6 +2153,12 @@
 		(uuid "91362b41-8d42-4eb5-9a6d-418153e870ad")
 	)
 	(junction
+		(at 106.68 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9345736e-19a6-4676-8d8e-b003aa437bce")
+	)
+	(junction
 		(at 41.91 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1973,6 +2235,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a662eb43-cf4f-44fb-be0b-09f0818d4574")
+	)
+	(junction
+		(at 234.95 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6a50106-2969-4f07-9215-54242aeff864")
 	)
 	(junction
 		(at 41.91 368.3)
@@ -2065,28 +2333,22 @@
 		(uuid "dfd03a9e-ff19-4ab8-b2d2-f67a26bcb19b")
 	)
 	(junction
-		(at 102.87 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0bced08-344e-464e-9190-23c0dd8f8140")
-	)
-	(junction
 		(at 109.22 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e11458dc-4b17-4993-9cff-a02949b8de47")
 	)
 	(junction
-		(at 30.48 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4f16adc-2584-4630-a046-438b18c3d5ce")
-	)
-	(junction
 		(at 7.62 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6ff7807-e98c-474c-a989-2b4e709b6b41")
+	)
+	(junction
+		(at 106.68 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef268410-a804-43f3-97cd-a2a7a088a494")
 	)
 	(junction
 		(at 41.91 279.4)
@@ -2175,16 +2437,6 @@
 			(type default)
 		)
 		(uuid "010a3e61-ef4b-4052-9a6d-c58f7f2e06de")
-	)
-	(wire
-		(pts
-			(xy 30.48 16.51) (xy 30.48 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02a0ba23-7560-449e-a881-8b0ed0b9984c")
 	)
 	(wire
 		(pts
@@ -2348,7 +2600,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 27.94) (xy 102.87 27.94)
+			(xy 83.82 27.94) (xy 106.68 27.94)
 		)
 		(stroke
 			(width 0.508)
@@ -2858,13 +3110,23 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 33.02) (xy 218.44 44.45)
+			(xy 218.44 24.13) (xy 218.44 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "32d63081-224d-4de5-b5c8-f7bfaf8e6eab")
+	)
+	(wire
+		(pts
+			(xy 231.14 33.02) (xy 234.95 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e9d6cc-641e-4ffa-8116-f45910e79509")
 	)
 	(wire
 		(pts
@@ -2918,13 +3180,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 33.02) (xy 222.25 33.02)
+			(xy 234.95 33.02) (xy 234.95 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "391cf7ec-5fa4-4d24-9382-6286b8bc83fb")
+		(uuid "37d9f00b-e3d7-4607-8e20-070637e86e7b")
 	)
 	(wire
 		(pts
@@ -2995,16 +3257,6 @@
 			(type default)
 		)
 		(uuid "3d311404-3060-4e8e-9a15-c021865cb729")
-	)
-	(wire
-		(pts
-			(xy 102.87 27.94) (xy 109.22 27.94)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(uuid "3e6263c1-6147-4f01-a018-cb566401531f")
 	)
 	(wire
 		(pts
@@ -3598,6 +3850,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 26.67) (xy 106.68 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67bfdba6-ae10-4c8e-91ba-960172005064")
+	)
+	(wire
+		(pts
 			(xy 228.6 24.13) (xy 234.95 24.13)
 		)
 		(stroke
@@ -3658,7 +3920,7 @@
 	)
 	(wire
 		(pts
-			(xy 7.62 27.94) (xy 30.48 27.94)
+			(xy 7.62 27.94) (xy 25.4 27.94)
 		)
 		(stroke
 			(width 0.508)
@@ -3678,7 +3940,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 27.94) (xy 41.91 27.94)
+			(xy 25.4 27.94) (xy 41.91 27.94)
 		)
 		(stroke
 			(width 0.508)
@@ -3725,16 +3987,6 @@
 			(type default)
 		)
 		(uuid "6dddde35-db47-4d9a-80df-80285f431091")
-	)
-	(wire
-		(pts
-			(xy 102.87 15.24) (xy 102.87 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e04e7f6-2c53-4a1f-9fcf-9fd2323890bf")
 	)
 	(wire
 		(pts
@@ -4058,16 +4310,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 33.02) (xy 234.95 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "883dbdbe-27b9-432f-8e57-11431a640943")
-	)
-	(wire
-		(pts
 			(xy 99.06 201.93) (xy 99.06 218.44)
 		)
 		(stroke
@@ -4188,7 +4430,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 16.51) (xy 30.48 16.51)
+			(xy 22.86 16.51) (xy 25.4 16.51)
 		)
 		(stroke
 			(width 0)
@@ -4245,6 +4487,16 @@
 			(type default)
 		)
 		(uuid "9507fac6-64b4-48b9-8f93-18cb5b9f9066")
+	)
+	(wire
+		(pts
+			(xy 218.44 33.02) (xy 218.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95891602-0412-4ac9-8a6f-1002e502286b")
 	)
 	(wire
 		(pts
@@ -4388,7 +4640,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 16.51) (xy 33.02 16.51)
+			(xy 25.4 16.51) (xy 33.02 16.51)
 		)
 		(stroke
 			(width 0)
@@ -4425,16 +4677,6 @@
 			(type default)
 		)
 		(uuid "9ee3bb1b-1cc6-4be8-b8c1-3b6c77c35b40")
-	)
-	(wire
-		(pts
-			(xy 218.44 24.13) (xy 218.44 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ef418e1-6aef-40f4-8fd8-1bf51dcd1a01")
 	)
 	(wire
 		(pts
@@ -4478,16 +4720,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 33.02) (xy 234.95 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a18d8cf9-a8de-421a-b557-ff41ed469372")
-	)
-	(wire
-		(pts
 			(xy 109.22 78.74) (xy 109.22 96.52)
 		)
 		(stroke
@@ -4505,6 +4737,16 @@
 			(type default)
 		)
 		(uuid "a2f30965-8f7d-443a-bd8d-63af31529dc3")
+	)
+	(wire
+		(pts
+			(xy 106.68 15.24) (xy 106.68 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30eba6e-ffdf-4e67-a789-812335c50469")
 	)
 	(wire
 		(pts
@@ -4618,6 +4860,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 33.02) (xy 220.98 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7dcd32-ac3d-4a4a-ae07-7a54df008787")
+	)
+	(wire
+		(pts
 			(xy 259.08 77.47) (xy 257.81 77.47)
 		)
 		(stroke
@@ -4678,6 +4930,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 26.67) (xy 25.4 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b251fbd7-b373-4cf3-8baa-b935a5b565fb")
+	)
+	(wire
+		(pts
 			(xy 91.44 341.63) (xy 78.74 341.63)
 		)
 		(stroke
@@ -4728,7 +4990,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 15.24) (xy 99.06 15.24)
+			(xy 99.06 15.24) (xy 106.68 15.24)
 		)
 		(stroke
 			(width 0)
@@ -4888,16 +5150,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 15.24) (xy 102.87 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c44915c6-3a3c-4b8c-a50d-c0577a908fc1")
-	)
-	(wire
-		(pts
 			(xy 109.22 331.47) (xy 109.22 349.25)
 		)
 		(stroke
@@ -5025,16 +5277,6 @@
 			(type default)
 		)
 		(uuid "ccf06077-8702-418c-a3e2-ba340ed9b39f")
-	)
-	(wire
-		(pts
-			(xy 102.87 25.4) (xy 102.87 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdbb8702-f02e-4c63-8ffb-8d336b2ff8ac")
 	)
 	(wire
 		(pts
@@ -5438,6 +5680,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 15.24) (xy 110.49 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95acf48-9bd5-4e3d-a406-97d667c4968d")
+	)
+	(wire
+		(pts
 			(xy 41.91 297.18) (xy 43.18 297.18)
 		)
 		(stroke
@@ -5508,6 +5760,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 27.94) (xy 109.22 27.94)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "efe5bf78-1ed9-43e7-a6e6-e87db7b50f2f")
+	)
+	(wire
+		(pts
 			(xy 229.87 139.7) (xy 238.76 139.7)
 		)
 		(stroke
@@ -5575,16 +5837,6 @@
 			(type default)
 		)
 		(uuid "f3e7de5d-1cd4-4ca0-9ca7-4087c51f2fb1")
-	)
-	(wire
-		(pts
-			(xy 30.48 25.4) (xy 30.48 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4632cd8-fa4e-4656-9c30-932af7b813fb")
 	)
 	(polyline
 		(pts
@@ -6401,76 +6653,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 30.48 21.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a0a3f81-1e58-444b-bb2e-6fdb462f08a3")
-		(property "Reference" "D5"
-			(at 33.02 20.3199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 33.02 22.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 30.48 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d32a51e9-524e-4e05-9464-26ae220469a2")
-		)
-		(pin "2"
-			(uuid "d23a96ed-2890-44db-b833-53e43dadc94f")
-		)
-		(instances
-			(project "CustomBMS"
-				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/5bba744b-5d77-4f20-8005-b356ef71a0a1"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 48.26 309.88 270)
 		(unit 1)
@@ -6935,17 +7117,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 102.87 21.59 270)
+		(lib_id "easyeda2kicad:BZT52C16_C2903915")
+		(at 25.4 21.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "192ec72a-5f3a-4342-af5f-6d0cbd393349")
-		(property "Reference" "D6"
-			(at 105.41 20.3199 90)
+		(uuid "1a4dd66e-1d32-4d03-b0a2-e9b08ea79c8d")
+		(property "Reference" "U12"
+			(at 19.812 19.812 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,18 +7134,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
-			(at 105.41 22.8599 90)
+		(property "Value" "BZT52C16_C2903915"
+			(at 15.24 24.384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.87 21.59 0)
+		(property "Footprint" "easyeda2kicad:SOD-123_L2.7-W1.6-LS3.8-RD"
+			(at 17.78 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,8 +7152,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 102.87 21.59 0)
+		(property "Datasheet" ""
+			(at 25.4 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6981,8 +7161,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Zener diode"
-			(at 102.87 21.59 0)
+		(property "Description" ""
+			(at 25.4 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6990,16 +7170,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2eedead2-9e03-4323-94cb-bd024e0e3d36")
+		(property "LCSC Part" "C2903915"
+			(at 15.24 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "170726d7-abe1-4d12-9521-8354ce2ef512")
+			(uuid "abde495d-2ea2-45cc-877f-17f628df5882")
+		)
+		(pin "1"
+			(uuid "c6a8729f-192e-47fc-9241-f1c03f70339f")
 		)
 		(instances
-			(project "CustomBMS"
+			(project ""
 				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/5bba744b-5d77-4f20-8005-b356ef71a0a1"
-					(reference "D6")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -7031,7 +7220,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.5 386.3848 0)
 			(effects
 				(font
@@ -7040,7 +7229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121935_Samwha-Capacitor-CS1005X7R104K500NR_C513772.pdf"
 			(at 59.69 387.35 0)
 			(effects
 				(font
@@ -7051,6 +7240,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 59.69 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C513772"
+			(at 59.69 387.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9209,6 +9407,82 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:1SMB5930B")
+		(at 226.06 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ed498e4-528c-4b23-a3cb-c5e1ebb4c438")
+		(property "Reference" "D40"
+			(at 226.06 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1SMB5930B"
+			(at 226.57 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SMB_L4.8-W3.6-LS5.4-RD"
+			(at 226.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Zener-Diodes_LGE-1SMB5930B_C688891.html"
+			(at 226.06 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C688891"
+			(at 226.06 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efbb19b0-f702-4a2c-9dc1-4f3802cc5bda")
+		)
+		(pin "1"
+			(uuid "ff74329e-59b9-4d72-a2c9-46ffc6c77349")
+		)
+		(instances
+			(project ""
+				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/5bba744b-5d77-4f20-8005-b356ef71a0a1"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 241.3 158.75 180)
 		(unit 1)
@@ -9533,7 +9807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 19.05 1.5748 0)
 			(effects
 				(font
@@ -9542,7 +9816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121935_Samwha-Capacitor-CS1005X7R104K500NR_C513772.pdf"
 			(at 15.24 2.54 0)
 			(effects
 				(font
@@ -9553,6 +9827,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 15.24 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C513772"
+			(at 15.24 2.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,6 +10214,84 @@
 			(project ""
 				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/5bba744b-5d77-4f20-8005-b356ef71a0a1"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BZT52C16_C2903915")
+		(at 106.68 21.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61c4208f-9f03-4982-9802-b375141c004f")
+		(property "Reference" "U13"
+			(at 101.092 19.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZT52C16_C2903915"
+			(at 96.52 24.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOD-123_L2.7-W1.6-LS3.8-RD"
+			(at 99.06 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2903915"
+			(at 96.52 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "64c0c7bc-b1c8-4229-b119-b8d10bb4fa34")
+		)
+		(pin "1"
+			(uuid "91bf1a94-68be-4ad5-b8f5-d5c007e31ad7")
+		)
+		(instances
+			(project "CustomBMS"
+				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/5bba744b-5d77-4f20-8005-b356ef71a0a1"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -10490,7 +10851,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at -6.35 1.5748 0)
 			(effects
 				(font
@@ -10499,7 +10860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121935_Samwha-Capacitor-CS1005X7R104K500NR_C513772.pdf"
 			(at -10.16 2.54 0)
 			(effects
 				(font
@@ -10510,6 +10871,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at -10.16 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C513772"
+			(at -10.16 2.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10955,74 +11325,6 @@
 			(project "CustomBMS"
 				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/5bba744b-5d77-4f20-8005-b356ef71a0a1"
 					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 226.06 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8914ab83-778f-41b9-a23c-4b07421d10d5")
-		(property "Reference" "D2"
-			(at 226.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 226.06 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e0059ca-87a1-46ff-8bd6-d39204f27c96")
-		)
-		(pin "2"
-			(uuid "bf18501c-5409-45db-a437-71c63594126a")
-		)
-		(instances
-			(project "CustomBMS"
-				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/5bba744b-5d77-4f20-8005-b356ef71a0a1"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11652,7 +11954,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.55 386.3848 0)
 			(effects
 				(font
@@ -11661,7 +11963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121935_Samwha-Capacitor-CS1005X7R104K500NR_C513772.pdf"
 			(at 78.74 387.35 0)
 			(effects
 				(font
@@ -11672,6 +11974,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 78.74 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C513772"
+			(at 78.74 387.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13953,7 +14264,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 6.35 1.5748 0)
 			(effects
 				(font
@@ -13962,7 +14273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121935_Samwha-Capacitor-CS1005X7R104K500NR_C513772.pdf"
 			(at 2.54 2.54 0)
 			(effects
 				(font
@@ -13973,6 +14284,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C513772"
+			(at 2.54 2.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)

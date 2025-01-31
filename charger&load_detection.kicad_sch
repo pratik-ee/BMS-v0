@@ -1195,6 +1195,125 @@
 				)
 			)
 		)
+		(symbol "easyeda2kicad:BZT52C12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZT52C12"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOD-123_L2.7-W1.6-LS3.7-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Zener-Diodes_BZT52C12_C173429.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C173429"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BZT52C12_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.29) (xy -1.52 1.27) (xy -1.52 -1.27) (xy -0.51 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 185.42 77.47)
@@ -1215,12 +1334,6 @@
 		(uuid "0ff8b56e-b970-41de-9216-50a080480ce1")
 	)
 	(junction
-		(at 76.2 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11802177-28fc-42f8-a244-2b83dd62efc5")
-	)
-	(junction
 		(at 63.5 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1239,22 +1352,28 @@
 		(uuid "2e4f2c1c-edf8-4878-b465-b6a06f2aa13d")
 	)
 	(junction
+		(at 77.47 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3821c924-3772-4498-895f-b21d664405cd")
+	)
+	(junction
 		(at 72.39 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39bbd45a-6b10-4936-920b-09541b3df7d9")
 	)
 	(junction
-		(at 82.55 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "530c777a-db7b-4e2a-9886-3fe7ab724db8")
-	)
-	(junction
 		(at 67.31 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "863c417a-8b39-428c-8b25-e42a420bf15f")
+	)
+	(junction
+		(at 82.55 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87f3f7a5-8c4c-4347-9854-9a96b4842560")
 	)
 	(junction
 		(at 203.2 77.47)
@@ -1292,7 +1411,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 59.69) (xy 82.55 59.69)
+			(xy 72.39 59.69) (xy 86.36 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1342,7 +1461,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 102.87) (xy 67.31 102.87)
+			(xy 67.31 102.87) (xy 77.47 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1399,6 +1518,16 @@
 			(type default)
 		)
 		(uuid "17c6d2db-16f4-45c0-8bf5-df7898c5c168")
+	)
+	(wire
+		(pts
+			(xy 77.47 91.44) (xy 85.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18df97bf-f611-4735-b893-d663ecc9737f")
 	)
 	(wire
 		(pts
@@ -1462,23 +1591,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 60.96) (xy 82.55 59.69)
+			(xy 82.55 69.85) (xy 86.36 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ffff85c-e49b-4f32-805e-a69a1226356c")
-	)
-	(wire
-		(pts
-			(xy 76.2 91.44) (xy 76.2 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34ecfd98-4440-418e-9422-3e7533f03b4b")
+		(uuid "2ae652b2-1bef-4da4-9247-94cb62b45a3a")
 	)
 	(wire
 		(pts
@@ -1732,7 +1851,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 91.44) (xy 85.09 91.44)
+			(xy 74.93 91.44) (xy 77.47 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1872,16 +1991,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 91.44) (xy 76.2 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6e00ee4-2b76-46d5-9359-a9bb0984c560")
-	)
-	(wire
-		(pts
 			(xy 165.1 67.31) (xy 170.18 67.31)
 		)
 		(stroke
@@ -1942,13 +2051,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 68.58) (xy 82.55 69.85)
+			(xy 77.47 92.71) (xy 77.47 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e65e5cd2-5a58-4b23-a1c2-d1d4e1d8262f")
+		(uuid "e6baeeab-d825-4967-adfb-d581c1fe2cf8")
 	)
 	(wire
 		(pts
@@ -2196,6 +2305,85 @@
 			(justify left)
 		)
 		(uuid "ee404ebd-33f1-43fc-bd3d-d29b07f786be")
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BZT52C12")
+		(at 86.36 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "045da298-9a13-4a01-886d-ddf5f8ba50d5")
+		(property "Reference" "D3"
+			(at 90.17 62.8649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZT52C12"
+			(at 90.17 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOD-123_L2.7-W1.6-LS3.7-RD"
+			(at 78.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Zener-Diodes_BZT52C12_C173429.html"
+			(at 76.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C173429"
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88297f61-83d0-4565-a2c4-a0687fb5a625")
+		)
+		(pin "2"
+			(uuid "4bd1dcad-71b8-42af-b74d-1ec122c2dffb")
+		)
+		(instances
+			(project ""
+				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/feaa7d91-301d-4a94-a100-c7358829192f"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2711,76 +2899,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 76.2 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32bd62a1-5e46-42d7-8db2-3ebfc14ab82e")
-		(property "Reference" "13V1"
-			(at 78.74 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 78.74 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 76.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d37f4146-4334-4a1a-9879-8910cc61450e")
-		)
-		(pin "2"
-			(uuid "410e607c-d989-46a0-9236-cc2a8c987727")
-		)
-		(instances
-			(project "CustomBMS"
-				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/feaa7d91-301d-4a94-a100-c7358829192f"
-					(reference "13V1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 33.02 102.87 270)
 		(unit 1)
@@ -3131,7 +3249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 84.1248 0)
 			(effects
 				(font
@@ -3158,6 +3276,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C513775"
+			(at 44.45 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f79a2de8-11fc-4a74-895b-e3d5f55f8ef7")
 		)
@@ -3168,76 +3295,6 @@
 			(project ""
 				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/feaa7d91-301d-4a94-a100-c7358829192f"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 82.55 64.77 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "698673eb-19e6-4fe4-a43c-eece6634b06d")
-		(property "Reference" "13V"
-			(at 85.09 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 85.09 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 82.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb07ae00-ea51-48cc-b8e1-48491131881c")
-		)
-		(pin "2"
-			(uuid "7fa11c1c-d88c-4efc-a7b2-ee196733cdec")
-		)
-		(instances
-			(project ""
-				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/feaa7d91-301d-4a94-a100-c7358829192f"
-					(reference "13V")
 					(unit 1)
 				)
 			)
@@ -4341,6 +4398,85 @@
 			(project "CustomBMS"
 				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/feaa7d91-301d-4a94-a100-c7358829192f"
 					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BZT52C12")
+		(at 77.47 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d674f9b2-2501-413b-ad1c-0e8422074975")
+		(property "Reference" "D4"
+			(at 81.28 95.8849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZT52C12"
+			(at 81.28 98.4249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOD-123_L2.7-W1.6-LS3.7-RD"
+			(at 69.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Zener-Diodes_BZT52C12_C173429.html"
+			(at 67.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C173429"
+			(at 64.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e3538a3-3c09-4e40-a25f-95cd8a1098c1")
+		)
+		(pin "2"
+			(uuid "aac00d1d-74ac-4501-a234-44bebb6aa9b7")
+		)
+		(instances
+			(project "CustomBMS"
+				(path "/422fc8bd-c42e-475a-86fa-949c078f7358/feaa7d91-301d-4a94-a100-c7358829192f"
+					(reference "D4")
 					(unit 1)
 				)
 			)

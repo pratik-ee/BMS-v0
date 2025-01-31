@@ -4638,7 +4638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121935_Samwha-Capacitor-CS1005X7R104K500NR_C513772.pdf"
 			(at 69.85 35.56 0)
 			(effects
 				(font
@@ -4666,6 +4666,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C513772"
 			(at 69.85 35.56 0)
 			(effects
 				(font
@@ -4726,7 +4735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121935_Samwha-Capacitor-CS1005X7R104K500NR_C513772.pdf"
 			(at 119.38 138.43 0)
 			(effects
 				(font
@@ -4754,6 +4763,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 119.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C513772"
 			(at 119.38 138.43 0)
 			(effects
 				(font
@@ -5615,7 +5633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121935_Samwha-Capacitor-CS1005X7R104K500NR_C513772.pdf"
 			(at 59.69 35.56 0)
 			(effects
 				(font
@@ -5643,6 +5661,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 59.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C513772"
 			(at 59.69 35.56 0)
 			(effects
 				(font
@@ -5879,7 +5906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121935_Samwha-Capacitor-CS1005X7R104K500NR_C513772.pdf"
 			(at 81.28 35.56 0)
 			(effects
 				(font
@@ -5907,6 +5934,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 81.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C513772"
 			(at 81.28 35.56 0)
 			(effects
 				(font
@@ -6376,7 +6412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121935_Samwha-Capacitor-CS1005X7R104K500NR_C513772.pdf"
 			(at 48.26 35.56 0)
 			(effects
 				(font
@@ -6404,6 +6440,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C513772"
 			(at 48.26 35.56 0)
 			(effects
 				(font
